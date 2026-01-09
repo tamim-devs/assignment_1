@@ -52,6 +52,7 @@ nav{
     border: none;
     cursor: pointer;
     transition: all linear 0.3s;
+    border-radius: 4px;
 }
 .nav__btn button:hover{
     padding: 12px 16px 12px 16px;
@@ -174,6 +175,7 @@ margin-right: 11px;
     font-weight: 500;
     background-color: #30B868;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
     transition: all linear 0.3s;
 }
@@ -194,6 +196,7 @@ margin-right: 11px;
     font-family: "Inter", sans-serif;
     background-color: transparent;
     border: 1px solid white;
+    border-radius: 4px;
     cursor: pointer;
     transition: all linear 0.3s;
 }
@@ -303,6 +306,8 @@ text-align: center;
 
 #section__2{
     padding: 120px 0px 120px 0px;
+    margin-bottom: 122px;
+
 }
 
 .section2_items{
@@ -357,3 +362,84 @@ gap: 16px;
 }
 
 /* _________________Section2 End HERE____________________ */
+/* _________________Section3 Start HERE____________________ */
+
+#section__3{
+    padding: 120px 0px 120px 0px;
+}
+
+
+.section3_items{
+    padding: 80px 40px 80px 40px;
+    background-color: #F7F6F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3_contents h2{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+text-transform: capitalize;
+text-align: left;
+color: #001931;
+margin-bottom: 16px;
+}
+
+.section3_contents p{
+font-family: "Inter", sans-serif;
+font-size: 16px;
+color: #627382;
+width: 500px;
+text-align: center;
+margin-bottom: 16px;
+}
+
+
+
+.section3_contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3_btn button{
+    padding: 16px ;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #249c56;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    margin-bottom: 16px;
+}
+
+.section3_btn button:hover{
+    background-color: #3eb670;
+    color: aliceblue;
+}
+
+.last_text p{
+ font-family: "Inter", sans-serif;
+ font-size: 16px;
+
+}
+
+.last_text {
+ 
+  display: flex;
+  text-align: center;
+
+}
+.circle i{
+    font-size: 10px;
+}
+/* _________________Section3 End HERE____________________ */
