@@ -212,7 +212,7 @@ margin-right: 11px;
 }
 
 /* _________________BANNER END HERE____________________ */
-/* _________________Section Start HERE____________________ */
+/* _________________Section1 Start HERE____________________ */
 
 #section__1{
     padding: 32px 0px 32px 0px ;
@@ -232,6 +232,7 @@ margin-right: 11px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
     margin-bottom: 16px;
+    color: #001931;
 }
 
 .section_1_content p{
@@ -266,6 +267,7 @@ margin-bottom: 100px;
     align-items: center;
     justify-content: center;
     box-shadow:  rgba(1, 12, 6, 0.062) 0px 0px 0px 2px;
+    margin-bottom: 71px;
 }
 
 .box_1 h5{
@@ -277,6 +279,7 @@ color: #001931;
 text-align: center;
 text-transform: capitalize;
 margin-bottom: 16px;
+width: 274px;
 }
 
 .box_1 p{
@@ -293,5 +296,64 @@ text-align: center;
     display: flex;
     gap: 20px;
 }
-/* _________________Section End HERE____________________ */
+/* _________________Section1 End HERE____________________ */
 
+/* _________________Section2 Start HERE____________________ */
+
+
+#section__2{
+    padding: 120px 0px 120px 0px;
+}
+
+.section2_items{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.section2_content h5{
+   color: #30B868;
+   text-transform: uppercase;
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   margin-bottom: 16px;
+}
+
+.section2_content h2{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 48px;
+text-transform: capitalize;
+text-align: left;
+width: 665px;
+color: #001931;
+margin-bottom: 16px;
+}
+
+.section2_content p{
+width: 462px;
+font-family: "Inter", sans-serif;
+font-size: 16px;
+line-height: 20px;
+color: #627382;
+margin-bottom: 40px;
+}
+
+.section2_list{
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.section2_list .list{
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
+    gap: 8px;
+}
+
+/* _________________Section2 End HERE____________________ */
