@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* _________________NAVBAR START HERE____________________ */
+
+nav{
+    padding: 16px 0 16px 0; 
+}
+
+.nav__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav__list ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+
+.nav__logo{
+    cursor: pointer;
+}
+
+
+.nav__btn button{
+    padding: 12px 16px 12px 16px;
+    background-color: #30B868;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.nav__btn button:hover{
+    padding: 12px 16px 12px 16px;
+    background-color: #03692e;
+    border: none;
+    cursor: pointer;
+}
+.nav__btn button a{
+font-family: "Inter", sans-serif;
+color: white;
+font-size: 16px;
+font-weight: 600;
+}
+
+/* _________________NAVBAR END HERE____________________ */
+
+/* _________________BANNER START HERE____________________ */
+#banner{
+    padding: 115px 0px 179px 0px;
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.access{
+    padding: 8px 12px 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.access h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #30B868;
+    font-family: "Inter", sans-serif;
+}
+
+.box{
+margin-right: 5px;
+width: 12px;
+height: 12px;
+background-color: rgb(26, 122, 66);
+border-radius: 100px;
+box-shadow:  rgba(0, 73, 30, 0.2) 0px 0px 0px 6px;
+margin-right: 11px;
+}
+
+.banner__heading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.banner__content .banner__heading h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 63px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.banner__content .banner__heading span {
+    font-family: "Inter", sans-serif;
+    font-size: 63px;
+    text-transform: capitalize;
+    color: rgba(48, 184, 104, 1);
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.banner__peragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 32px;
+}
+
+.banner__peragraph p{
+  width: 699px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.banner__btn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner__btn .btn__1 button{
+    padding: 16px ;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #30B868;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.banner__btn .btn__1 button:hover{
+    padding: 16px ;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: #03692e;
+    border: none;
+    cursor: pointer;
+}
+.banner__btn .btn__2 button{
+    padding: 16px ;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.banner__btn .btn__2 button:hover{
+    background-color: #30B868;
+    color: white;
+    border: 1px solid #30B868;
+}
+
+.btn__2 button span{
+    margin-right: 8px;
+}
+.btn__1 button span{
+    margin-left: 8px;
+}
+
+/* _________________BANNER END HERE____________________ */
+
